@@ -8,7 +8,7 @@ public class LevelManager : MonoBehaviour
     [SerializeField] GameObject[] Levels;
     [SerializeField]Dodgy player;
     
-    int levelThreshold = 2;
+    int levelThreshold = 4;
     int currentLevel;
     int lastLevel;
     int counter = 0;
